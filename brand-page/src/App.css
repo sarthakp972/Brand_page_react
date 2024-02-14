@@ -1,0 +1,46 @@
+.hero-image img {
+        width: 49vw;
+        height: 60vh;
+    }
+    .navbar {
+  
+        --bs-navbar-padding-y: -0.5rem;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        height: calc(100vh-0.5rem);
+    }
+    .hero h1{
+        font-weight: 800;
+        line-height: 102px;
+        font-size: 108px;
+    }
+    .mar{
+        margin-top: 40px;
+    }
+    .btn{
+        margin: 10px;
+    }
+    .brand-icons img {
+        margin-left: 10px;             
+    }
+    @media (max-width: 576px) {
+        .hero h1 {
+            font-size: 48px; /* Adjust font size for smaller screens */
+            line-height: 40px; /* Adjust line height for smaller screens */
+        }
+    
+        .hero-image img {
+            width: 80vw; /* Adjust width for smaller screens */
+            height: auto; /* Adjust height to maintain aspect ratio */
+        }
+    
+        .navbar {
+            --bs-navbar-padding-y: 0.5rem; /* Adjust padding for smaller screens */
+        }
+        p{
+                margin-bottom: 0rem;
+        }
+
+    }
